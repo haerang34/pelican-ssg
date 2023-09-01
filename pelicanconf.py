@@ -29,8 +29,10 @@ AUTHOR_FEED_RSS = None
 # RELATIVE_URLS = True
 
 STATIC_PATHS = ['images']
-SITELOGO = 'images/profile.png'
-FAVICON = 'images/favicon.ico'
+PAGE_PATHS = ['pages']
+ARTICLE_PATHS = ['blogs']
+SITELOGO = '/images/profile.png'
+FAVICON = '/images/favicon.ico'
 
 MAIN_MENU = True
 HOME_HIDE_TAGS = True

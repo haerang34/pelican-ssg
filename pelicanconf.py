@@ -3,7 +3,8 @@ from datetime import datetime
 THEME = 'Flex'
 
 AUTHOR = 'Ji Wan Koo'
-SITEURL = ''
+# SITEURL = ''
+SITEURL = 'https://haerang34.github.io/pelican-ssg'
 SITENAME = "Koo's Devlog Site"
 SITETITLE = "Koo's Devlog"
 SITESUBTITLE = "Software Developer / Data Engineer"
@@ -18,16 +19,13 @@ TIMEZONE = 'Asia/Seoul'
 DEFAULT_LANG = 'ko'
 DEFAULT_PAGINATION = 10
 
-# Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-# Uncomment following line if you want document-relative URLs when developing
-# RELATIVE_URLS = True
-
+RELATIVE_URLS = True
 STATIC_PATHS = ['images']
 PAGE_PATHS = ['pages']
 ARTICLE_PATHS = ['blogs']

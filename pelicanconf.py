@@ -12,8 +12,6 @@ BROWSER_COLOR = "#333333"
 THEME_COLOR = 'dark'
 PYGMENTS_STYLE = "monokai"
 ROBOTS = "index, follow"
-SITELOGO = '/images/profile.png'
-FAVICON = '/images/favicon.ico'
 
 PATH = 'content'
 TIMEZONE = 'Asia/Seoul'
@@ -29,6 +27,10 @@ AUTHOR_FEED_RSS = None
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
+
+STATIC_PATHS = ['images']
+SITELOGO = 'images/profile.png'
+FAVICON = 'images/favicon.ico'
 
 MAIN_MENU = True
 HOME_HIDE_TAGS = True
